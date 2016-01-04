@@ -1,0 +1,39 @@
+FactoryGirl.define do
+  factory :profile do
+    reference "MyString"
+    ssn "MyString"
+    first_name "MyString"
+    middle_name "MyString"
+    last_name "MyString"
+    dob "2015-12-31"
+    phone "MyString"
+    address "MyString"
+    city "MyString"
+    state "MyString"
+    zip "MyString"
+    fico 1
+    public_records 1
+    bankruptcies 1
+    liens 1
+    trades 1
+    education 1
+    mortgage 1
+    was_delinquent_30_days 1
+    was_delinquent_60_days 1
+    was_delinquent_90_days 1
+    was_delinquent_120_days 1
+    delinquent_30_days 1
+    delinquent_60_days 1
+    delinquent_90_days 1
+    delinquent_120_days 1
+    paid_was_delinquent_30_days 1
+    paid_was_delinquent_60_days 1
+    paid_was_delinquent_90_days 1
+    pas_was_delinquent_120_days 1
+    foreclosures 1
+    repossessions 1
+    charge_offs 1
+    other_derogatories 1
+    collections 1
+  end
+end
