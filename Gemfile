@@ -9,6 +9,11 @@ gem 'rails-api'
 # For querying the test profiles
 gem 'ransack'
 
+# Gems for running on Heroku
+gem 'puma'
+gem "rack-timeout"
+gem 'rails_12factor', group: :production
+
 group :development, :test do
   gem 'byebug'
   gem "factory_girl_rails", "~> 4.0"
